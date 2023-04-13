@@ -1,0 +1,14 @@
+.index.title {
+    align-items: center;
+    font-size: large;
+    color: salmon;
+}
+.index.list {
+    align-items: center;
+    font-size: 18px;
+    color: black;
+}
+
+li {
+    color: black;
+}
