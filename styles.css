@@ -1,14 +1,38 @@
-.index.title {
-    align-items: center;
-    font-size: large;
-    color: salmon;
-}
-.index.list {
-    align-items: center;
-    font-size: 18px;
-    color: black;
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(210, 205, 205);
+  background-color: rgb(24, 23, 23);
 }
 
-li {
-    color: black;
+ul,
+ol {
+  font-size: 24px;
+}
+
+.index-title {
+  font-size: 48px;
+  text-align: center;
+  color: salmon;
+}
+
+/* Recipe Pages */
+
+.food-picture {
+  height: 400px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.recipe-header {
+  text-align: center;
+  border: 5px;
+  background-color: rgb(30, 30, 87);
+  border-color: rgb(56, 56, 157);
+}
+
+.subsection.header {
+  text-align: center;
+  font-size: 32px;
 }
