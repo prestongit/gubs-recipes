@@ -3,7 +3,21 @@
   color: rgb(210, 205, 205);
   background-color: rgb(24, 23, 23);
 }
-
+a {
+  text-decoration: none;
+}
+nav {
+  z-index: 1000;
+}
+.nav-bar {
+  display: flex;
+  list-style: none;
+  border: 2px solid grey;
+  padding: 8px;
+}
+.nav-bar li {
+  flex: 1;
+}
 ul,
 ol {
   font-size: 24px;
