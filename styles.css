@@ -29,6 +29,25 @@ ol {
   color: salmon;
 }
 
+.recipe-list {
+  display: flex;
+  gap: 18px;
+  justify-content: space-around;
+}
+
+.recipe-list li {
+  list-style: none;
+}
+.recipe-list img {
+  height: 250px;
+  width: auto;
+  border-radius: 8px;
+}
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
 /* Recipe Pages */
 
 .food-picture {
